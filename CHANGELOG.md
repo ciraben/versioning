@@ -11,8 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - CHANGELOG
 - LICENSE
-### Updated
-- README with some new tips.
+- some new tips to the README!
 
 ## [0.0.1] - 2020-08-31
 ### Added
