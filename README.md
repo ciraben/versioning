@@ -2,10 +2,10 @@
 
 In Git, we use tags to flag notable commits in a project. Use `git tag` to check existing tags on a project. There are two different kinds of tags.
 
-Lightweight tags (`git tag TAGNAME`) just label a specific commit. From the [Git website](https://git-scm.com/book/en/v2/Git-Basics-Tagging),
+**Lightweight tags** (`git tag TAGNAME`) just label a specific commit. From the [Git website](https://git-scm.com/book/en/v2/Git-Basics-Tagging),
 >"[They are] basically the commit checksum stored in a file — no other information is kept."
 
-Annotated tags store a bit more info. It sounds like they're the most useful for versioning with github. To declare a new version using a tag, do: 
+**Annotated tags** store a bit more info. It sounds like they're the most useful for versioning with github. To declare a new version using a tag: 
 ```bash
 $ git tag -a v1.4 -m "version 1.4"
 ```
@@ -98,7 +98,7 @@ fc718b4 Commit .gitignore.
 1623d3c Commit a readme.
 f6face4 (tag: v0.0.1) Commit license.
 ```
-* `git describe` shows where you are with respect to most recent tag, in the form `MOST_RECENT_TAG-NUMBER_OF_COMMITS_SINCE_TAG-CURRENT-COMMIT-ID`, like this:
+* `git describe` shows where you are with respect to most recent tag, in the form `V-N-H`, where `V` is the most recent version/tag name, `N` is the number of commits since then, and `H` is the last commit's hash ID. Like this:
 ```bash
 $ git describe
 v0.1.1-2-g237406c
