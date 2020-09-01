@@ -34,7 +34,7 @@ This will update any and all tags you've fiddled with though, including lightwei
 
 Finally, to display your version as a release:
 * Go to the repository's main page on Github.
-* In the righthand panel under Releases, a text link "+ X release(s)" is displayed - click it!
+* In the righthand panel under Releases, a text link "Create a new release" is displayed - click it!
 * From the Releases page, on the righthand side, click "Draft new release".
 * Begin typing your version's tag in the "Tag version" field, and select it from the dropdown menu. (Handily, if all your versions start with v, you can type `v` and see them all!)
 * Optionally enter a title & description for this version.
