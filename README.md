@@ -65,7 +65,7 @@ $ git commit
 ```
 Since I edit in vim, I'll also add `*.swp` to my .gitignore right off the bat. Then, make a new repository on github.com, grab the generated address and:
 ```bash
-$ git add origin ADDRESS
+$ git remote add origin ADDRESS
 $ git push -u origin main
 ```
 If you're ready to start versioning, now's the time:
@@ -153,6 +153,12 @@ Move a tag to most recent commit:
 $ git push origin :refs/tags/TAGNAME
 $ git tag --force -a TAGNAME
 $ git push origin main --tags
+```
+
+Remember, if you edit a bunch of files & want to document with separate commits, you can always add them one file at a time instead of with `git add .`.
+```bash
+$ git add FILE
+$ git commit -m "FILE-SPECIFIC MESSAGE"
 ```
 
 # Thanks for reading!
