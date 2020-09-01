@@ -157,10 +157,6 @@ $ git push origin main --tags
 
 # Thanks for reading!
 
-## Contact
-
-If you think this was helpful, or you want to suggest a change, give me a shout at tom.on.github@gmail.com — I'd love to hear it!
-
 ## References
 
 * [Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
@@ -168,6 +164,10 @@ If you think this was helpful, or you want to suggest a change, give me a shout 
 * [The Stack Overflow community wiki](https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages)
 * [Greg Hewgill on Stack Overflow](https://stackoverflow.com/questions/8044583/how-can-i-move-a-tag-on-a-git-branch-to-a-different-commit)
 * [Scott Hanselman](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx)
+
+## Contact
+
+If you think this was helpful, or you want to suggest a change, give me a shout at tom.on.github@gmail.com — I'd love to hear it!
 
 ## License
 
