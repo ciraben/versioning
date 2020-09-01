@@ -1,4 +1,6 @@
-covid-update.py Copyright 2020 Tom Van Manen
+**Learning How Git Versioning Works**
+
+Copyright 2020 Tom Van Manen
 
 Hippocratic License Version Number: 2.1.
 
