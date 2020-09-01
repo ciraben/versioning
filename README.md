@@ -18,7 +18,7 @@ $ git tag -a v1.4 f6face4
 
 ## Releasing a Version to Github
 
-To push a new release, normally we'll push our commits to main as well, to advertise our new release on our project's main page:
+To push a new release, normally we'll push our commits to `main` as well, to advertise our new release on our project's main page:
 ```bash
 $ git push
 ```
@@ -30,7 +30,7 @@ or, if you like typing the same thing every time,
 ```bash
 $ git push origin --tags
 ```
-(This will update any and all tags you've fiddled with though, including lightweight tags. To update annotated tags only, use `git push origin --follow-tags`.)
+This will update any and all tags you've fiddled with though, including lightweight tags. To update annotated tags only, use `git push origin --follow-tags`.
 
 Finally, to display your version as a release:
 * Go to the repository's main page on Github.
@@ -147,3 +147,29 @@ Edit most recent commit message before pushing:
 $ git commit --amend
 ```
 (This adds current changes to the commit, however.)
+
+Move a tag to most recent commit:
+```bash
+$ git push origin :refs/tags/TAGNAME
+$ git tag --force -a TAGNAME
+$ git push origin main --tags
+```
+
+# Thanks for reading!
+
+## Contact
+
+If you think this was helpful, or you want to suggest a change, give me a shout at tom.on.github@gmail.com — I'd love to hear it!
+
+## References
+
+* [Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+* [marco.marinangeli on Stack Overflow](https://stackoverflow.com/questions/37814286/how-to-manage-the-version-number-in-git#46434732)
+* [The Stack Overflow community wiki](https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages)
+* [Greg Hewgill on Stack Overflow](https://stackoverflow.com/questions/8044583/how-can-i-move-a-tag-on-a-git-branch-to-a-different-commit)
+* [Scott Hanselman](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx)
+
+## License
+
+**Learning How Git Versioning Works** is licensed under [The Hippocratic License 2.1](https://firstdonoharm.dev/).
+
